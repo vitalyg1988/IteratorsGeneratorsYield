@@ -1,0 +1,2 @@
+2019-04-09 14:58:41,652  - Вызов функции hash_md5 c параметрами (('E:\\Vit\\PyCharmProfEdition Project\\2 Python advanced\\IteratorsGeneratorsYield\\output.txt',), {})
+2019-04-09 14:58:41,652  - Функция вернула результат <generator object hash_md5 at 0x000000000345D750>

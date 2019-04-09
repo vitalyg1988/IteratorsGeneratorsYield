@@ -1,0 +1,23 @@
+{
+  "version":1,
+  "handlers":{
+    "fileHandler":{
+      "class":"logging.FileHandler",
+      "formatter":"LogFormatter",
+      "filename":"Logs.log"
+      }
+  },
+
+  "loggers":{
+    "logInfo":{
+      "handlers":["fileHandler"],
+      "level":"INFO"
+      }
+  },
+
+  "formatters":{
+    "LogFormatter":{
+      "format":"%(asctime)s  - %(message)s"
+      }
+  }
+}
